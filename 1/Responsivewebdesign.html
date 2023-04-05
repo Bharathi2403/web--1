@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="image">
+			<img src="https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg?cs=srgb&dl=pexels-wolfgang-2747449.jpg&fm=jpg" alt="Event Image">
+		</div>
+		<div class="form">
+			<h1>Event Form</h1>
+			<form>
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" placeholder="Enter your name" required>
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" placeholder="Enter your email" required>
+				<label for="phone">Phone Number</label>
+				<input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+				<label for="seats">Number of Seats</label>
+				<select id="seats" name="seats">
+				  <option value="1">1 seat</option>
+				  <option value="2">2 seats</option>
+				  <option value="3">3 seats</option>
+				  <option value="4">4 seats</option>
+				</select>
+				<label for="attendee-name">Name of Attendee(s)</label>
+				<textarea id="attendee-name" name="attendee-name" placeholder="Enter the name(s) of attendee(s)"></textarea>
+				<div class="buttons">
+					<button type="submit">Submit</button>
+					<button type="reset">Cancel</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
